@@ -1,0 +1,127 @@
+@import 'theme';
+
+// HTML common css
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #000;
+  width: 100%;
+  font-size: var(--font-size);
+  line-height: 1.5;
+  margin: auto;
+}
+section {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  // padding-top: 108px;
+  background-color: var(--background-gray);
+}
+.page_wrap {
+  position: relative;
+  z-index: 1;
+}
+.notoSerif {
+  font-family: 'Noto Serif JP', sans-serif;
+}
+.notoSans {
+  font-family: 'Noto Sans JP', serif;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+.hover {
+  transition: all 0.3s linear;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+input:focus {
+  outline: none;
+}
+.common_width {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+picture,
+video {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+.pc_flex,
+.pc_block {
+  display: none !important;
+}
+.sp_block {
+  display: block !important;
+}
+.sp_flex {
+  display: flex !important;
+}
+@media screen and (min-width: 768px) {
+  .pc_flex {
+    display: flex;
+  }
+  .pc_block {
+    display: block;
+  }
+  .sp_flex,
+  .sp_block {
+    display: none;
+  }
+  a[href*='tel:'] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+  }
+
+  .tel_a {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .tel_a a:hover {
+    color: #373737;
+  }
+}

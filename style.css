@@ -1,0 +1,172 @@
+/*
+Theme Name: Empty
+Theme URI:
+Description: This Theme is default Wordpress theme that has built-in support first built.
+Author:
+Author URI:
+Version: 1.0.0
+*/
+/* TABLE OF CONTENTS:
+
+1. Reset tags and predefined classes
+
+-------------------------------------------------------------- */
+/* 1. Reset tags
+-------------------------------------------------------------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+video,
+audio,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+address,
+section {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  outline: 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+applet,
+object,
+iframe,
+video,
+audio,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Predefined classes for users
+-------------------------------------------------------------- */
+/* Round object corners */
+.rounded_none {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+.rounded_tiny {
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.rounded_small {
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.rounded_medium {
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rounded_large {
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.rounded {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Overflow hidden */
+.overflow_hidden {
+  overflow: hidden !important;
+}
+
+.overflow_x_hidden {
+  overflow-x: hidden !important;
+}
+
+.overflow_y_hidden {
+  overflow-y: hidden !important;
+}

@@ -1,0 +1,26 @@
+:root {
+  --font-body: 'Roboto', sans-serif;
+  --font-size: 16px;
+
+  --color-white: #ffffff;
+  --color-gray: #7e7e7e;
+  --color-black: #333333;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    --font-size: 1.3rem;
+  }
+}

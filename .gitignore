@@ -1,0 +1,16 @@
+# build output
+.vscode/
+
+# generated types
+
+# dependencies
+
+# logs
+
+# environment variables
+
+# macOS-specific files
+.DS_Store
+
+# CSS folder
+assets/css/*
